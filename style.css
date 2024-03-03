@@ -13,9 +13,11 @@
   bottom: 0;
   background-color: rgba(0,0,0,0.5); /* Black background with opacity */
 }
-video{
-  width: max-content;
-  height:max-content;
+.video-background{
+  position: top;
+  
+  min-width: 100%;
+  min-height: 3%;
 
 
 }
