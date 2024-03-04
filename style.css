@@ -17,4 +17,16 @@
 
 h1{
   color: blue;
+  
+}
+.siteBox{
+
+  width: 350px;
+  height: 200px;
+  border: solid;
+  border-block-width: 5;
+  margin: 70px;
+  margin-left: 80px;
+  border-color:black;
+
 }
