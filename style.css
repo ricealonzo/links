@@ -6,7 +6,11 @@
 body{
   padding-top: 40px;
   padding-bottom: 40px;
-  background-image: url(assets/backgroundLinks.jpg);
+  background-image:linear-gradient(
+
+    rgb(0 0 0 / 50%),
+    rgb(0 0 100 / 50%)
+  ), url(assets/backgroundLinks.jpg);
 }
 
 .banner-image {
@@ -28,10 +32,7 @@ body{
 }
 
 
-h1{
-  color: blue;
-  
-}
+
 .siteBox{
 
   width: 350px;
@@ -41,11 +42,14 @@ h1{
   margin: 70px;
   margin-left: 80px;
   border-color:black;
+  border-radius: 10px;
 
 }
-li{
+a, li, h3, p{
   text-decoration: none;
   text-align: center;
+  color: azure;
 
 
 }
+
